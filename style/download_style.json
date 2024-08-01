@@ -20,14 +20,14 @@
       "type": "line",
       "source": "v",
       "source-layer": "coastl",
-      "maxzoom": 4
+      "maxzoom": 5
     },
     {
       "id": "landmass",
       "type": "fill",
       "source": "v",
       "source-layer": "landmass",
-      "maxzoom": 4,
+      "maxzoom": 5,
       "paint": {"fill-color": "rgba(195, 176, 176, 1)"}
     },
     {
@@ -35,7 +35,7 @@
       "type": "line",
       "source": "v",
       "source-layer": "riverl",
-      "maxzoom": 4,
+      "maxzoom": 5,
       "paint": {"line-color": "blue", "line-width": 2}
     }
   ],
