@@ -35,7 +35,16 @@
         center: [0, 0], // starting position [lng, lat]
         zoom: 1, // starting zoom
         maplibreLogo: true,
+        hash: true,
       });
+
+      //UI
+      map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+      map.addControl(new maplibregl.ScaleControl());
+
+      //debug
+      map.showTileBoundaries = true;
+      map.showCollisionBoxes = false;
     </script>
   </body>
 </html>
