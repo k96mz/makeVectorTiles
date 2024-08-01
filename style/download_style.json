@@ -6,7 +6,7 @@
     "v": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/makeVectorTiles/Data/VTpractice/{x}/{y}/{z}.pbf"
+        "https://k96mz.github.io/makeVectorTiles/Data/VTpractice/{z}/{x}/{y}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 4
